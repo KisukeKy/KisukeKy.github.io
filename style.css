@@ -1,0 +1,83 @@
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .2rem 1rem;
+    background-color: whitesmoke;
+}
+
+nav h1 {
+    color: blue;
+}
+
+nav ul{
+    color: blue;
+    display: flex;
+    gap: 1.9rem;
+}
+
+nav ul li{
+    font-weight: bold;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 6px;
+    margin: auto;
+}
+.hero img{
+    height: 500px;
+    width: 500px;
+}
+.hero h2{
+    width: 25rem;
+    padding: 5px;
+    border-radius: 6px;
+}
+.hero p{
+    padding: 20px 0;
+}
+.skills{
+    padding: 20px;
+}
+.skills ul{
+    display: flex;
+    gap: 1.9rem;
+    padding: 20px;
+}
+.Education{
+    padding: 20px;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+.column2{
+    float: right;
+    width: 50%;
+}
+.projects h2{
+    padding: 100px 50px 0;
+}
+.projects {
+    background-color: var(--bg-color);
+    padding: 32px 0;
+    margin-top: 2rem;
+}
+
+.project-pic {
+    width: 65%;
+    height: 60%;
+}
+
+.projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
